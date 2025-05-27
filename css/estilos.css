@@ -169,6 +169,12 @@ body {
 .contenedor-imagenes{
     text-align: center;
 }
+.contenedor-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .flex-container{
   margin-bottom: 50px;
 }
@@ -193,6 +199,10 @@ body {
     height: 220px;
     border-radius: 15px;
     margin: 20px;
+}
+.image-info1{
+    width: 450px;
+    
 }
 .grid{
     display: grid;
@@ -339,9 +349,6 @@ body {
         position: relative;
         font-size: 15PX;
     }
-   
-        
-    
     .submenu2{
         color:var(--colorblanco);
         position: absolute;
@@ -385,4 +392,5 @@ body {
         margin-left: 35px;
         bottom: 90px;
     }
+    
 }
